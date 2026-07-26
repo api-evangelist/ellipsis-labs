@@ -1,0 +1,68 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/Ellipsis-Labs
+notes: >-
+  First-party client libraries for the Phoenix DEX and Ellipsis on-chain programs.
+  Official ownership confirmed via crates.io owners (jarry-xiao, Ellipsis Labs
+  founder) and the Ellipsis-Labs GitHub organization / npm scope. The crates
+  "plasma" and "sokoban" on crates.io resolve to unrelated owners/repos and are
+  intentionally excluded rather than mislabeled official.
+packages:
+- language: javascript
+  registry: npm
+  name: "@ellipsis-labs/phoenix-sdk"
+  version: 2.0.3
+  url: https://www.npmjs.com/package/@ellipsis-labs/phoenix-sdk
+  install: npm install @ellipsis-labs/phoenix-sdk
+  repository: https://github.com/Ellipsis-Labs/phoenix-sdk
+  description: TypeScript SDK for interacting with the Phoenix DEX on Solana.
+  official: true
+- language: rust
+  registry: crates.io
+  name: phoenix-sdk
+  version: 0.8.0
+  url: https://crates.io/crates/phoenix-sdk
+  install: cargo add phoenix-sdk
+  description: Rust SDK for interacting with the Phoenix DEX.
+  official: true
+- language: rust
+  registry: crates.io
+  name: phoenix-v1
+  version: 0.2.4
+  url: https://crates.io/crates/phoenix-v1
+  install: cargo add phoenix-v1
+  repository: https://github.com/Ellipsis-Labs/phoenix-v1
+  description: On-chain order book program that atomically settles trades.
+  official: true
+- language: rust
+  registry: crates.io
+  name: phoenix-common
+  version: 0.4.0
+  url: https://crates.io/crates/phoenix-common
+  install: cargo add phoenix-common
+  repository: https://github.com/Ellipsis-Labs/phoenix-v1
+  description: Shared types and utilities for the Phoenix program.
+  official: true
+- language: rust
+  registry: crates.io
+  name: ellipsis-client
+  version: 1.4.0
+  url: https://crates.io/crates/ellipsis-client
+  install: cargo add ellipsis-client
+  description: Lightweight Solana client combining RPC and BanksClient functionality.
+  official: true
+- language: rust
+  registry: crates.io
+  name: ellipsis-macros
+  version: 0.3.0
+  url: https://crates.io/crates/ellipsis-macros
+  install: cargo add ellipsis-macros
+  description: Custom macros for automating Solana program code generation.
+  official: true
+- language: python
+  registry: github
+  name: phoenixpy
+  url: https://github.com/Ellipsis-Labs/phoenixpy
+  install: pip install git+https://github.com/Ellipsis-Labs/phoenixpy.git
+  description: Python library to interact with Phoenix on Solana. Source-only; not published to PyPI.
+  official: true

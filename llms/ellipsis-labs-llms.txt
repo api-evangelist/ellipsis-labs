@@ -1,0 +1,35 @@
+# Ellipsis Labs
+
+> Ellipsis Labs builds decentralized finance applications and infrastructure on Solana. Its flagship product is Phoenix, a fully on-chain, atomically-settled limit order book exchange for spot assets, now expanded with Phoenix Perps for on-chain perpetual futures. Ellipsis exposes its protocol to developers through open-source SDKs (TypeScript, Rust, Python), command-line tools, and on-chain Solana programs rather than a hosted REST API. Backed by Electric Capital and Paradigm.
+
+## Products
+- [Phoenix Perps](https://www.phoenix.trade/): On-chain perpetual futures trading on Solana.
+- [Phoenix Legacy](https://legacy.phoenix.trade/): Decentralized spot exchange with a fully on-chain limit order book.
+- [Atlas](https://www.atlas.xyz/): High-performance DeFi Layer 2.
+- Gavel: Token distribution and liquidity bootstrapping platform.
+- Plasma: Sandwich-resistant AMM reference implementation for Solana.
+
+## Docs
+- [Phoenix DEX Documentation](https://ellipsis-labs.gitbook.io/phoenix-dex/): Developer documentation for the Phoenix protocol.
+- [GitHub Organization](https://github.com/Ellipsis-Labs): Source for all Phoenix and Ellipsis programs, SDKs, and tools.
+
+## SDKs and Packages
+- [@ellipsis-labs/phoenix-sdk (npm)](https://www.npmjs.com/package/@ellipsis-labs/phoenix-sdk): TypeScript SDK for the Phoenix DEX.
+- [phoenix-sdk (crates.io)](https://crates.io/crates/phoenix-sdk): Rust SDK for the Phoenix DEX.
+- [phoenix-v1 (crates.io)](https://crates.io/crates/phoenix-v1): On-chain order book program.
+- [phoenix-common (crates.io)](https://crates.io/crates/phoenix-common): Shared Phoenix types and utilities.
+- [ellipsis-client (crates.io)](https://crates.io/crates/ellipsis-client): Lightweight Solana RPC/BanksClient.
+- [phoenixpy (GitHub)](https://github.com/Ellipsis-Labs/phoenixpy): Python library for Phoenix.
+
+## CLI
+- [phoenix-cli (crates.io)](https://crates.io/crates/phoenix-cli): CLI for interacting with the Phoenix DEX.
+- [vulcan-cli (GitHub)](https://github.com/Ellipsis-Labs/vulcan-cli): Phoenix CLI for humans and agents.
+- [solana-verifiable-build (GitHub)](https://github.com/Ellipsis-Labs/solana-verifiable-build): Verify source matches on-chain deployments.
+
+## Security
+- [Security & Bug Bounty Policy](https://github.com/Ellipsis-Labs/phoenix-v1/blob/master/SECURITY.md): Bug bounty administered by Ellipsis Labs and OtterSec; contact maintainers@ellipsislabs.xyz.
+
+## Company
+- [Website](https://www.ellipsislabs.xyz/)
+- [LinkedIn](https://www.linkedin.com/company/ellipsis-labs/)
+- [X / Twitter](https://x.com/ellipsis_labs)

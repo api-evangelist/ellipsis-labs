@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/Ellipsis-Labs
+notes: >-
+  First-party command-line tools for the Phoenix DEX and for verifying Solana
+  program builds. phoenix-cli is published to crates.io; vulcan-cli and
+  solana-verifiable-build are distributed via the Ellipsis-Labs GitHub org.
+clis:
+- name: phoenix-cli
+  language: rust
+  registry: crates.io
+  version: 0.3.14
+  install: cargo install phoenix-cli
+  url: https://crates.io/crates/phoenix-cli
+  repository: https://github.com/Ellipsis-Labs/phoenix-cli
+  description: CLI for interacting with the Phoenix DEX — inspect markets, place and cancel orders, and manage seats from the terminal.
+  official: true
+- name: vulcan-cli
+  language: rust
+  registry: github
+  install: cargo install --git https://github.com/Ellipsis-Labs/vulcan-cli
+  url: https://github.com/Ellipsis-Labs/vulcan-cli
+  description: Phoenix CLI designed for humans and agents.
+  official: true
+- name: solana-verifiable-build
+  language: rust
+  registry: crates.io
+  install: cargo install solana-verifiable-build
+  url: https://github.com/Ellipsis-Labs/solana-verifiable-build
+  description: Verifiable build tooling that checks published source matches on-chain program deployments.
+  official: true
